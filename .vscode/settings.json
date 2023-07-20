@@ -3,6 +3,8 @@
   "inlineFold.autoFold": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
+  "solidity.defaultCompiler": "remote",
+  "solidity.compileUsingRemoteVersion": "latest",
 
   // IDE Config
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -10,5 +12,9 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
   }
 }
